@@ -1,0 +1,83 @@
+
+/* für die Button im Accordion */
+
+.button {
+
+    -fx-background-radius: 0px;
+    -fx-font-family: "Segoe UI Light";
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+    -fx-background-color: #ababab;
+    -fx-border-color: #858585;
+
+
+}
+
+.button:focused{
+
+    -fx-background-color: #919191;
+
+}
+
+/* nur fuer den Moment in dem Knopf gedrueckt wird */
+.button:pressed {
+
+     -fx-background-color: #808080;
+     -fx-border-width: 2px;
+     -fx-border-color: #858585;
+
+}
+
+.button:hover {
+
+    -fx-background-color: #bdbdbd;
+
+}
+
+/* für  das Accordion links */
+.titled-pane  > .title {
+
+    -fx-pref-height: 40px;
+    -fx-background-color: #808080;
+    -fx-font-size: 20 pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #545454;
+
+}
+
+.titled-pane > .title > .arrow-button .arrow {
+
+    -fx-background-color: #FFFFFF;
+    -fx-background-insets: 1 0 -1 0, 0;
+    -fx-padding: 0.25em 0.3125em 0.25em 0.3125em; /* 3 3.75 3 3.75 */
+    -fx-shape: "M 0 0 h 7 l -3.5 4 z";
+}
+
+.menu-bar{
+    -fx-pref-height: 25px;
+    -fx-background-color: #363636;
+
+}
+
+.menu .label {
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-font-family: "Segoe UI Light";
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+    -fx-font-size: 12;
+
+}
+
+/*Ueberschrift*/
+.label {
+
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: bold;
+    -fx-font-size: 28;
+
+}
